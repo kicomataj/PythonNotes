@@ -19,11 +19,13 @@ def boolean_usage():
     """Example usage for boolean data types"""
 
     x = True
-    print(f"{x=}")
+    print(x)
+    # print(f"{x=}")
     print(type(x))
 
     y = False
-    print(f"{y=}")
+    print(y)
+    # print(f"{y=}")
     print(type(y))
 
     print(x and y)  # False
@@ -108,9 +110,16 @@ def string_usage():
 def main():
     """Runs the main function"""
 
+    print("Boolan examples...")
     boolean_usage()
+
+    print("\nInteger examples...")
     integer_usage()
+
+    print("\nDecimal examples...")
     decimal_usage()
+
+    print("\nInteger examples...")
     string_usage()
 
 
